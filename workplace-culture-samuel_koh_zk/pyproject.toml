@@ -1,0 +1,26 @@
+[project]
+name = "workplace-culture"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Charles Yap Yaocheng", email = "charles_yap_yc@aiap.sg"}, 
+    {name = "Leroy Ee Bing Yao", email = "leroy_ee_by@aiap.sg"},
+    {name = "Moses Lee Hong De", email = "moses_lee_hd@aiap.sg"},
+    {name = "Samuel Koh Zhi Kang", email = "samuel_koh_zk@aiap.sg"}
+]
+dependencies = [
+    "bertopic>=0.16.0",
+    "matplotlib>=3.8.3",
+    "seaborn>=0.13.2",
+    "ipykernel>=6.29.3",
+    "python-docx>=1.1.0",
+    "loguru>=0.7.2",
+    "pyinstaller>=6.5.0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "NONE"}
+
+
+[tool.pdm]
+distribution = false
